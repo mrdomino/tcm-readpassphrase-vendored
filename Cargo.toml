@@ -1,0 +1,18 @@
+[package]
+name = "tcm-readpassphrase-vendored"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.72.0"
+description = "Vendored BSD readpassphrase C code"
+readme = "README.md"
+repository = "https://github.com/mrdomino/tcm-readpassphrase-vendored"
+license = "ISC"
+
+exclude = [
+  ".githook/*",
+  ".github/**",
+  ".gitignore",
+]
+
+[build-dependencies]
+cc = "1"
